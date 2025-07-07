@@ -1,4 +1,4 @@
-# 🦷 Dental Dashboard
+# 🦷 Dental Centre Management Dashboard
 
 An intuitive and role-based dental clinic management dashboard built with React, enabling both **Admins** and **Patients** to manage appointments, treatment history, and invoices effectively.
 
@@ -66,7 +66,7 @@ public/
   └── data/
       ├── patients_data.json
       └── incidents_data.json
-      |___users_data.json
+      |___users.json
 
 src/
 ├── context/

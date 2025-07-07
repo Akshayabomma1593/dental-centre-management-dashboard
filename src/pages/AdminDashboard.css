@@ -1,0 +1,141 @@
+/* Container for entire admin dashboard */
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Top bar with heading and theme toggle */
+.dashboard-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Dashboard heading */
+.dashboard-topbar h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Navigation buttons */
+.dashboard-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.dashboard-buttons button {
+  background-color: #34495e;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+  background-color: #2c3e50;
+}
+
+/* KPI Grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* KPI Card */
+.kpi-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+.kpi-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.kpi-card p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/* Appointment list */
+.kpi-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kpi-card li {
+  background-color: #f0f0f0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Top patients list */
+.kpi-card ol {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.kpi-card ol li {
+  margin-bottom: 10px;
+}
+
+/* Status colors */
+.status-pending {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.status-completed {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Dark Theme */
+.dashboard-container.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.dashboard-container.dark .kpi-card {
+  background-color: #2c2c2c;
+}
+
+.dashboard-container.dark .dashboard-buttons button {
+  background-color: #555;
+}
+
+.dashboard-container.dark .dashboard-buttons button:hover {
+  background-color: #666;
+}
+
+.dashboard-container.dark .kpi-card li {
+  background-color: #444;
+}

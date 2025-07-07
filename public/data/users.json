@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "role": "Admin",
+    "email": "admin@entnt.in",
+    "password": "admin123"
+  },
+  {
+    "id": "2",
+    "role": "Patient",
+    "email": "akshita@gmail.com",
+    "password": "patient123",
+    "patientId": "p2"
+  }
+]

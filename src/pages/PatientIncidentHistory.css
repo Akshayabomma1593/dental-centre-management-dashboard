@@ -1,0 +1,51 @@
+.incident-history-container {
+  padding: 20px;
+}
+
+.incident-history-container.light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.incident-history-container.dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.no-records {
+  font-style: italic;
+  color: gray;
+}
+
+.incident-card-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.incident-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dark .incident-card {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+.incident-card:hover {
+  transform: scale(1.02);
+}
+
+.incident-card h3 {
+  margin-top: 0;
+  color: #1976d2;
+}
+
+.file-link {
+  color: #007bff;
+  text-decoration: underline;
+}

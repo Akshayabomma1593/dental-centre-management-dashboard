@@ -1,0 +1,107 @@
+[
+  {
+    "id": "p1",
+    "name": "Akshaya Bomma",
+    "dob": "2003-09-15",
+    "contact": "9949233795",
+    "healthInfo": "Sensitivity in molars"
+  },
+  {
+    "id": "p2",
+    "name": "Akshita Mehra",
+    "dob": "2001-05-08",
+    "contact": "9876543210",
+    "healthInfo": "Bleeding in gums"
+  },
+  {
+    "id": "p3",
+    "name": "Priya Nair",
+    "dob": "2006-02-01",
+    "contact": "9841523876",
+    "healthInfo": "Braces adjustment needed"
+  },
+  {
+    "id": "p4",
+    "name": "Karan Joshi",
+    "dob": "1989-06-07",
+    "contact": "9876012234",
+    "healthInfo": "Root canal scheduled"
+  },
+  {
+    "id": "p5",
+    "name": "Ananya Gupta",
+    "dob": "2008-07-27",
+    "contact": "9823312345",
+    "healthInfo": "Cavity in lower molar"
+  },
+  {
+    "id": "p6",
+    "name": "Kavya Menon",
+    "dob": "2001-09-12",
+    "contact": "9876512340",
+    "healthInfo": "Root canal scheduled"
+  },
+  {
+    "id": "p7",
+    "name": "Varun Kumar",
+    "dob": "2000-08-05",
+    "contact": "9812344500",
+    "healthInfo": "Wisdom tooth pain"
+  },
+  {
+    "id": "p8",
+    "name": "Harshita Reddy",
+    "dob": "2003-06-07",
+    "contact": "8796632451",
+    "healthInfo": "Cavity in lower molar"
+  },
+  {
+    "id": "p9",
+    "name": "Sneha Sharma",
+    "dob": "1999-12-25",
+    "contact": "7989456321",
+    "healthInfo": "Cavity in both upper premolars"
+  },
+  {
+    "id": "p10",
+    "name": "Shruti Patel",
+    "dob": "2000-09-30",
+    "contact": "998913352",
+    "healthInfo": "Regular cleaning"
+  },
+  {
+    "id": "p11",
+    "name": "Deepak Reddy",
+    "dob": "1999-12-25",
+    "contact": "7989456321",
+    "healthInfo": "Cavity in both upper premolars"
+  },
+  {
+    "id": "p12",
+    "name": "Meera Varma",
+    "dob": "1998-04-12",
+    "contact": "9567890123",
+    "healthInfo": "Wisdom tooth removal required"
+  },
+  {
+    "id": "p13",
+    "name": "Rajiv Menon",
+    "dob": "2004-01-20",
+    "contact": "9012345670",
+    "healthInfo": "Orthodonotic consultation"
+  },
+  {
+    "id": "p14",
+    "name": "Divya Shetty",
+    "dob": "2005-06-10",
+    "contact": "9678901234",
+    "healthInfo": "Cavity in upper molar"
+  },
+  {
+    "id": "p15",
+    "name": "Nikhil Rao",
+    "dob": "1997-11-19",
+    "contact": "9845012345",
+    "healthInfo": "Root canal follow-up"
+  }
+]

@@ -1,0 +1,122 @@
+/* Root container for the incident manager */
+.incident-manager-container {
+  padding: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Theme-based background and text color */
+.incident-manager-container.dark {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.incident-manager-container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Headings */
+.incident-manager-container h2,
+.add-incident-form h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Dropdown */
+.incident-manager-container select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Add Incident Form */
+.add-incident-form {
+  margin-bottom: 2rem;
+}
+
+.add-incident-form input,
+.add-incident-form select {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.add-incident-form input[type="file"] {
+  padding: 0.3rem;
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Add Button */
+.add-incident-form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-incident-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Incident Cards */
+.incident-card {
+  background-color: rgba(240, 240, 240, 0.05);
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.incident-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* File Button */
+.incident-file-link {
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding: 0.4rem 0.8rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.incident-file-link:hover {
+  background-color: #218838;
+}
+
+/* Incident Action Buttons */
+.incident-actions {
+  margin-top: 0.5rem;
+}
+
+.incident-actions button {
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ffc107;
+  color: #000;
+}
+
+.incident-actions button:hover {
+  background-color: #e0a800;
+}

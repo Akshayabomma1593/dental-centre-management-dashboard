@@ -6,6 +6,22 @@ An intuitive and role-based dental clinic management dashboard built with React,
 👉 [Click here to view the live app](https://dental-dashboard-git-main-akshayabomma1593s-projects.vercel.app)
 
 ---
+🔐 Demo Login Credentials
+
+Admin Login
+
+email: admin@entnt.in
+
+Password: admin@123
+
+
+Patient Login
+
+email: akshita@gmail.com
+
+Password: patient@123
+
+---
 
 ## 📌 Features
 
@@ -50,6 +66,7 @@ public/
   └── data/
       ├── patients_data.json
       └── incidents_data.json
+      |___users_data.json
 
 src/
 ├── context/

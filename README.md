@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🦷 Dental Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An intuitive and role-based dental clinic management dashboard built with React, enabling both **Admins** and **Patients** to manage appointments, treatment history, and invoices effectively.
 
-## Available Scripts
+### 🚀 Live Demo
+👉 [Click here to view the live app](https://dental-dashboard-git-main-akshayabomma1593s-projects.vercel.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 👩‍⚕️ Admin Dashboard
+- View and manage  registered patients
+- Add, edit, and delete patient incidents (appointments)
+- Upload/view PDF invoices (base64 support)
+- Dashboard KPIs: revenue, top patients, appointment stats
+- Calendar view for appointments (monthly/weekly)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 👨‍⚕️ Patient Dashboard
+- View personal treatment history and upcoming appointments
+- Download/view attached invoices files
 
-### `npm test`
+### 🌗 Extras
+- Dark/light mode toggle
+- Responsive UI
+- Context API-based state management
+- LocalStorage-based persistent data (no backend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React.js (Functional Components, Hooks)
+- **State Management**: Context API
+- **Styling**: CSS Modules
+- **Routing**: React Router
+- **File Handling**: Base64 + Blob for PDF preview
+- **Deployment**: Vercel
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation (for local dev)
+git clone https://github.com/Akshayabomma1593/dental-dashboard.git
+cd dental-dashboard
+npm install
+npm start
 
-### `npm run eject`
+📁 Folder Structure
+public/
+  └── data/
+      ├── patients_data.json
+      └── incidents_data.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+├── context/
+│   └── AppContext.js
+├── pages/
+│   ├── AdminDashboard.js
+│   ├── PatientDashboard.js
+│   ├── AdminIncidentManager.js
+│   ├── PatientIncidentHistory.js
+│   └── Login.js
+├── utils/
+│   └── pdfUtils.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧑‍💻 Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Akshaya Bomm
+🔗 GitHub:(https://github.com/Akshayabomma1593)
+📧 Email: bommaakshaya@gmail.com
 
-## Learn More
+----
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📜 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and free to use for learning and academic purposes

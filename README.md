@@ -12,14 +12,14 @@ Admin Login
 
 email: admin@entnt.in
 
-Password: admin@123
+Password: admin123
 
 
 Patient Login
 
 email: akshita@gmail.com
 
-Password: patient@123
+Password: patient123
 
 ---
 
